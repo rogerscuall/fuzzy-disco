@@ -19,7 +19,7 @@ func main() {
 	// Get Neo4j connection details from environment variables or use defaults
 	neo4jURI := getEnv("NEO4J_URI", "bolt://localhost:7687")
 	neo4jUser := getEnv("NEO4J_USER", "neo4j")
-	neo4jPassword := getEnv("NEO4J_PASSWORD", "password")
+	neo4jPassword := getEnv("NEO4J_PASSWORD", "ecology-cafe-laptop-galileo-mobile-9640")
 
 	// Create Neo4j client
 	fmt.Println("Connecting to Neo4j...")
